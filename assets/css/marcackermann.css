@@ -1,9 +1,11 @@
 body {
     font-size: 120%;
-    font-family: "Roboto Mono", serif;
+    font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 h1,
@@ -12,10 +14,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto Mono", serif;
+    font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 A:link {
@@ -26,17 +30,27 @@ A:hover {
     text-decoration: none;
 }
 
+.barriecito {
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .ac-bar {
     background-color:rgb(0,0,0);opacity:0.8;
 }
 
 .title {
-    color: #2aa9db !important;
+    color: #FFFFFF !important;
 }
 
 .title:hover {
     color: #a1d9ef !important;
 
+}
+
+.title-text {
+    font-size:140%;
 }
 
 .nav-link A:hover {
