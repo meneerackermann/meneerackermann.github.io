@@ -1,0 +1,40 @@
+url: "https://tools.marcackermann.nl"
+title: 'Marc Ackermann'
+slogan: 'Photography, Train Spotter, Blogger, Gamer, Video Creator'
+description: "Photography, Train Spotter, Blogger, Gamer, Video Creator"
+logo: /assets/images/marc.png
+keep_files: [.git, README.md, .gitignore]
+year: 2025
+permalink: /posts/:title:output_ext
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+navigation:
+  - title: Home
+    url: /
+
+platforms:
+  - name: Website
+    link: https://marcackermann.nl
+    icon: <i class="fa-solid fa-globe"></i>
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/meneerackermann
+  - name: Flickr
+    link: https://www.flickr.com/people/marcackermann/
+    icon: <i class="fa-brands fa-flickr"></i>
+  - name: Threads
+    link: https://www.threads.net/@meneerackermann
+    icon: <i class="fa-brands fa-threads"></i>
+  - name: Instagram
+    link: https://instagram.com/meneerackermann
+    icon: <i class="fa-brands fa-instagram"></i>
+  - name: Youtube
+    link: https://youtube.com/@marcackermann
+    icon: <i class="fa-brands fa-youtube"></i>
+  - name: Twitch
+    link: https://www.twitch.tv/marcackermann
+    icon: <i class="fa-brands fa-twitch"></i>
